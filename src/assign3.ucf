@@ -1,0 +1,33 @@
+# Pin assignments for Digilent Spartan 3 board
+# Syntax is:  NET "signal-name"  LOC = "pin location" ;
+# < > select individual bits of wide signals.
+
+NET "clk50"  LOC = "T9"  ;
+
+NET "reset_pb"  LOC = "L14"  ;  # BTN3
+#NET "button2" LOC = "L13";   # BTN2
+#NET "button1" LOC = "M14";      # BTN1
+NET "start"  LOC = "M13"  ;     # BTN0
+
+#NET "switch<0>"  LOC = "F12"  ;
+#NET "switch<1>"  LOC = "G12"  ;
+#NET "switch<2>"  LOC = "H14"  ;
+#NET "switch<3>"  LOC = "H13"  ;
+#NET "switch<4>"  LOC = "J14"  ;
+#NET "switch<5>"  LOC = "J13"  ;
+#NET "switch<6>"  LOC = "K14"  ;
+#NET "switch<7>"  LOC = "K13"  ;
+
+NET "segments<0>"  LOC = "P16"  ;
+NET "segments<1>"  LOC = "N16"  ;
+NET "segments<2>"  LOC = "F13"  ;
+NET "segments<3>"  LOC = "R16"  ;
+NET "segments<4>"  LOC = "P15"  ;
+NET "segments<5>"  LOC = "N15"  ;
+NET "segments<6>"  LOC = "G13"  ;
+NET "segments<7>"  LOC = "E14"  ;
+
+NET "digits<0>"  LOC = "D14"  ;
+NET "digits<1>"  LOC = "G14"  ;
+NET "digits<2>"  LOC = "F14"  ;
+NET "digits<3>"  LOC = "E13"  ;
